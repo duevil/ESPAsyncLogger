@@ -1,0 +1,32 @@
+{
+  "name": "ESPAsyncLogger",
+  "description": "Asynchronous logging library for the ESP32 using FreeRTOS queues and tasks to process logs in the background to avoid interrupting time-critical program flows",
+  "frameworks": "arduino",
+  "platforms": [
+    "espressif32"
+  ],
+  "url": "https://github.com/duevil/ESPAsyncLogger.git",
+  "version": "1.0.0",
+  "keywords": "logger, logging, serial, async",
+  "authors": [
+    {
+      "name": "Malte Kasolowsky",
+      "url": "https://github.com/duevil",
+      "maintainer": true
+    }
+  ],
+  "license": "LGPL-2.1-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duevil/ESPAsyncLogger.git"
+  },
+  "export": {
+    "include": [
+      "examples/*",
+      "src/*",
+      "README.md",
+      "library.json",
+      "LICENSE"
+    ]
+  }
+}
