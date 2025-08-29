@@ -6,7 +6,7 @@
     "espressif32"
   ],
   "url": "https://github.com/duevil/ESPAsyncLogger.git",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": "logger, logging, serial, async",
   "authors": [
     {
