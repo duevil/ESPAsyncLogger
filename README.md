@@ -1,3 +1,5 @@
+[![PlatformIO Registry](https://badges.registry.platformio.org/packages/duevil/library/ESPAsyncLogger.svg)](https://registry.platformio.org/libraries/duevil/ESPAsyncLogger)
+
 # ESPAsyncLogger
 
 Asynchronous logging library for the ESP32 using FreeRTOS queues and tasks to process logs in the background to avoid
